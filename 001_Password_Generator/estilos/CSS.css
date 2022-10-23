@@ -113,10 +113,12 @@ section.dois > main > section.opcao > input.check{
     appearance: none;
     width: 10px;
     height: 10px;
-    background-color:var(--verdeclaro1);
     margin-left: 2px;
     margin-right: 3px;
     margin-top: 10px;
+    background-color:rgb(100, 206, 68);
+
+
 }
 
 .check:checked::after{
@@ -128,6 +130,7 @@ section.dois > main > section.opcao > input.check{
     border-width: 0 2px 1px 0;
     transform: rotate(45deg);
     margin: 1.2px 1.5px;
+
 }
 
 section.dois > main > section.forca{
