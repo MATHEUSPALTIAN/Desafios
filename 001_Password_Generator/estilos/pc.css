@@ -22,19 +22,24 @@
         height: 100vh;
         position: relative;
     }
-    h1.titulo{
-        padding: 5px;
-        color: white;
-    
-    }
+
     section > main {
         position: absolute;
-        top: 15%;
+        top: 13.8%;
         left: 30%;
-
         background-color: rgb(53, 52, 52);
         width: 40%;
+        height: 6%;
         border-radius: 10px;
+
+    }
+    h1.titulo{
+        color: white;
+        text-align: center;
+        align-items: center;
+        margin: 0px;
+        padding-top: 15px;
+    
     }
     section.dois > main {
         width: 40%;
@@ -114,7 +119,7 @@
         left: 15%;
     }
     h1.titulo{
-        padding: 5px;
+        padding: 1.5%;
         color: white;
     
     }
