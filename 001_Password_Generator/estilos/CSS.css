@@ -65,7 +65,7 @@ section.dois > main > section.quant > input {
     width: 95%;
     position: absolute;
     -webkit-appearance: none;
-    background: var(--verdeclaro1);    
+    background: var(--verdeclaro);    
 }
 
 section.dois > main > section.quant > input::-webkit-slider-thumb {

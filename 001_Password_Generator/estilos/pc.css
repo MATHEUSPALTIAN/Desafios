@@ -29,7 +29,7 @@
     }
     section > main {
         position: absolute;
-        top: 25%;
+        top: 15%;
         left: 30%;
 
         background-color: rgb(53, 52, 52);
@@ -38,10 +38,10 @@
     }
     section.dois > main {
         width: 40%;
-        height: 47vh;
+        height: 65vh;
         border-radius: 10px;
         position: absolute;
-        top: 30.5%;
+        top: 20.5%;
         left: 30%;
     }
     section.dois > main > section.imagemfundo> div{
