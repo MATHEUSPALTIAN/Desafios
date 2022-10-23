@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+    /*PC */
+@media screen and (min-width:1300px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-size: 1.1em;
+    }
+    
+    body{
+        background-image: url(../imagens/fundo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        position: relative;
+    }
+    section > main {
+        position: absolute;
+        top: 25%;
+        left: 30%;
+
+        background-color: rgb(53, 52, 52);
+        width: 40%;
+        border-radius: 10px;
+    }
+    section.dois > main {
+        width: 40%;
+        height: 45vh;
+        border-radius: 10px;
+    }
+    section.dois > main > section.imagemfundo> div{
+        display: none;
+    }
+    section.dois > main > section.forca{
+        margin-top: 1vh;
+    }
+    section.dois > main > div.input > input{
+        margin-top: 0.3vh;
+    }
+    section.dois > main > section> button.botaodecopiar{
+        width: 50px;
+        height: 40px;
+        background-color: rgba(237, 240, 236, 0.863);
+        border-radius: 10px;
+        left: 75%;
+        margin-top:-0.2vh;
+    }
+    section.dois > main > section> button.botaodecopiar > img{
+        width: 25px;
+        padding: 1px;
+        padding-top: 5px;
+    }
+    section.dois > main > section.opcao > input.check{
+        appearance: none;
+        width: 20px;
+        height: 20px;
+        background-color:rgb(131, 228, 204);
+        margin-left: 2px;
+        margin-right: 3px;
+        margin-top: 2px;
+    }
+    
+    .check:checked::after{
+        content: "";
+        display: block;
+        width: 10px;
+        height: 10px;
+        border: 2px solid black;
+        border-width: 0 2px 1px 0;
+        transform: rotate(45deg);
+        margin: 1.2px 1.5px;
+    }
+}
+
+    /*tablet */
+@media screen and (min-width:768px) and (max-width:1300px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-size: 1.1em;
+    }
+    
+    body{
+        background-image: url(../imagens/fundo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        position: relative;
+        
+    }
+    section > main {
+        background-color: rgb(53, 52, 52);
+        width: 70%;
+        border-radius: 10px;
+        position: absolute;
+        top: 25%;
+        left: 15%;
+    }
+    section.dois > main {
+        width: 70%;
+        height: 45vh;
+        border-radius: 10px;
+    }
+    section.dois > main > section.imagemfundo> div{
+        display: none;
+    }
+    section.dois > main > section.forca{
+        margin-top: 1vh;
+    }
+    section.dois > main > div.input > input{
+        margin-top: 0.3vh;
+    }
+    section.dois > main > section> button.botaodecopiar{
+        width: 50px;
+        height: 40px;
+        background-color: rgba(237, 240, 236, 0.863);
+        border-radius: 10px;
+        left: 80%;
+        margin-top:-0.2vh;
+    }
+    section.dois > main > section> button.botaodecopiar > img{
+        width: 25px;
+        padding: 1px;
+        padding-top: 5px;
+    }
+    section.dois > main > section.opcao > input.check{
+        appearance: none;
+        width: 20px;
+        height: 20px;
+        background-color:rgb(131, 228, 204);
+        margin-left: 2px;
+        margin-right: 3px;
+        margin-top: 2px;
+    }
+    
+    .check:checked::after{
+        content: "";
+        display: block;
+        width: 10px;
+        height: 10px;
+        border: 2px solid black;
+        border-width: 0 2px 1px 0;
+        transform: rotate(45deg);
+        margin: 1.2px 1.5px;
+    }
+}

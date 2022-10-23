@@ -1,0 +1,214 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+:root{
+    --azulverde: #2A8C82;
+    --verdeescuro: #0C1709;
+    --verdeclaro: #4BBF5C;
+    --verdeclaro1: #56B978;
+    --verdeclaro2: #BDEA75;
+    --fonte:  'Josefin Sans', sans-serif;
+}
+/* CELULAR */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(247, 244, 244);
+    font-family: var(--fonte);
+
+
+}
+
+body, html{
+    background-image: url(../imagens/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+h1.titulo{
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 2vh;
+}
+section > main {
+    width: 80%;
+    height: 5vh;
+    margin: auto;
+    border-radius: 4px;
+    background-color:var(--verdeclaro);
+    padding:5px;
+    border: 0.3px solid rgba(34, 33, 33, 0.726);
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+section.dois > main {
+    width: 80%;
+    height: 70vh;
+    margin: auto;
+    border-radius: 4px;
+    background-color: rgb(53, 52, 52);
+    padding: 10px;
+    border: 0.3px solid rgba(34, 33, 33, 0.726);
+}
+section.dois > main > section.quant {
+    position: relative;
+}
+section.dois > main > section.quant > input {
+    width: 95%;
+    position: absolute;
+    -webkit-appearance: none;
+    background: var(--verdeclaro1);    
+}
+
+section.dois > main > section.quant > input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 8vw;
+    max-width: 30px;
+    height: 4vh;
+    max-height: 35px;
+    border-radius: 50%; 
+    background: #101a15;
+    cursor: pointer;
+}
+
+section.dois > main > section.quant > output{
+    margin-top: 1%;
+    margin-left: 96%;
+    position: absolute;
+
+} 
+section.dois > main > section.dados{
+    display: flex;
+    position: relative;
+    font-size: 1em;
+    margin-bottom: 2vh;
+}
+
+section.dois > main > section.dados > div.quant_caracter{
+    position: absolute;
+    width: 90%;
+}
+section.dois > main > section.dados > div.num{
+    position: absolute;
+    width: 10%;
+    left: 90%;
+    }
+section.dois > main > section.opcao{
+    margin-top: 5vh;
+    position: relative;
+    font-size: 0.9em;
+}
+section.dois > main > section.opcao > input.check{
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    background-color:var(--verdeclaro1);
+    margin-left: 2px;
+    margin-right: 3px;
+    margin-top: 10px;
+}
+
+.check:checked::after{
+    content: "";
+    display: block;
+    width: 5px;
+    height: 5px;
+    border: 0.5px solid white;
+    border-width: 0 2px 1px 0;
+    transform: rotate(45deg);
+    margin: 1.2px 1.5px;
+}
+
+section.dois > main > section.forca{
+    display: flex;
+    width: 99%;
+    margin-top: 5vh;
+}
+section.dois > main > section.forca > div.strenght {
+    background-color: #0C1709;
+    border-radius: 4px;
+    padding-left: 5px;
+    padding: 10px;
+    margin-left: 5px;
+    width: 70%;
+    text-align: center;
+}
+section.dois > main > section.forca > div.tamanho {
+    background-color: #0C1709;
+    border-radius: 4px;
+    padding-left: 5px;
+    padding: 10px;
+    margin-left: 5px;
+    width: 30%;
+    text-align: center;
+}
+
+section.dois > main > div.input{
+    margin-top: 2vh;
+    text-align: center;
+}
+section.dois > main > div.input > input{
+    background-color: var(--verdeclaro1);
+    width: 98%;
+    margin-top: 2vh;
+    border-radius: 5px;
+    border: 0.2px solid black;
+    font-size: 1em;
+    cursor: pointer;
+    
+}
+
+section.dois > main > div.input > input:active{
+    box-shadow: inset -12px 4px 0 --cinza;;
+    font-size: 0.9em;
+    transform: translate(-0.5%, -0.5%);
+    background-color:#2A8C82;
+}
+section.dois > main > section.senhagerada{
+    margin-top: 5vh;
+    display:flex;
+    position: relative;
+}
+section.dois > main > section> div.senha{
+    position: absolute;
+    font-size: 1.0em;
+    width: 90%;    
+    text-align: center;
+    align-items: center;
+}
+section.dois > main > section> button.botaodecopiar{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 82%;
+    margin-top: -0.3vh;
+    background-color: rgba(227, 235, 226, 0.774);
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+section.dois > main > section> button.botaodecopiar:active{
+    box-shadow: inset -12px 4px 0 --cinza;;
+    font-size: clamp(7px, 4.5vw, 13px);
+    transform: translate(-3%, -5%);
+    background-color:#56B978
+}
+section.dois > main > section> button{
+    position: absolute;
+    width: 100vw;
+    height: 3vw;
+    left: 92%;
+    margin-top: 2vh;
+    background-color: rgba(100, 167, 94, 0.822);
+    border-radius: 5px;
+}
+section.dois > main > section> button.botaodecopiar > img{
+    width: 15px;
+    padding: 1px;
+    padding-top: 2px;
+}

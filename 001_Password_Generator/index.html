@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos/CSS.css">
+    <link rel="stylesheet" href="estilos/pc.css">
+</head>
+<body>
+
+    <section>
+        <main>
+            <h1 class="titulo"> Password Generator</h1>        
+        </main>
+    </section>
+
+    <section class="dois">
+        <main>
+            
+
+            
+            <section class="dados">
+                <div class="quant_caracter">
+                    Character Length
+                </div>
+                <div class="num"> Nº</div>
+            </section>
+            <br>
+            <section class="quant">
+                <input type="range" name="" id="rangedonum"
+                min="4" max="15" value="12" oninput="mudarNum()">
+
+                <output id="ival" >12</output>
+                
+
+            </section>
+            <br>
+
+            <section class="opcao">
+                <input type="checkbox" name="" id="maiusculo" class="check"><label for="maiusculo">Incluir letras maiúsculas</label>                <br>
+                <input type="checkbox" name="" id="minuscula" class="check"><label for="minuscula">Incluir letras minúsculas</label>                <br>
+                <input type="checkbox" name="" id="numeros" class="check"><label for="numeros">Incluir números</label>                <br>
+
+                <input type="checkbox" name="" id="simbolos" class="check"><label for="simbolos">Incluir símbolos</label>
+                <br>
+
+            </section>
+
+            <section class="forca">
+                <div class="strenght">
+                    força da senha:
+                </div>
+                <div class="tamanho" id="forcadasenha">🧙🏻‍♂️
+
+                </div>
+            </section>
+
+            <div class="input">
+                <input type="button" value="Gerar  ➝" onclick="password()">
+            </div>
+
+            <section class="senhagerada">
+                <div class="senha" id="isenha">
+                <span id="senhagerada">senha</span></div>
+                <button onclick="copy()"
+                class="botaodecopiar" id="icopy" > <img src="imagens/copy.png" alt="" >
+                </button>
+            </section>
+
+            <section class="imagemfundo">
+            <div class="imagemdefundo">
+                
+            </div>
+            </section>
+
+        
+        </main>
+    </section>
+    <script src="javascript/js.js"></script>
+</body>
+</html>
