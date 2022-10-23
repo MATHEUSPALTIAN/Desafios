@@ -3,11 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
 :root{
-    --azulverde: #2A8C82;
-    --verdeescuro: #0C1709;
-    --verdeclaro: #4BBF5C;
-    --verdeclaro1: #56B978;
-    --verdeclaro2: #BDEA75;
+    --azulverde: #95D296;
+    --verdeescuro: #619155;
+    --verdeclaro: #A8DDC9;
     --fonte:  'Josefin Sans', sans-serif;
 }
 /* CELULAR */
@@ -40,7 +38,7 @@ section > main {
     height: 5vh;
     margin: auto;
     border-radius: 4px;
-    background-color:rgba(45, 199, 96, 0.795);
+    background-color:var(--verdeescuro);
     padding:5px;
     border: 0.3px solid rgba(34, 33, 33, 0.726);
     position: absolute;
@@ -116,7 +114,7 @@ section.dois > main > section.opcao > input.check{
     margin-left: 2px;
     margin-right: 3px;
     margin-top: 10px;
-    background-color:rgb(100, 206, 68);
+    background-color:var(--azulverde);
 
 
 }
@@ -162,7 +160,7 @@ section.dois > main > div.input{
     text-align: center;
 }
 section.dois > main > div.input > input{
-    background-color: var(--verdeclaro1);
+    background-color: var(--verdeescuro);
     width: 98%;
     margin-top: 2vh;
     border-radius: 5px;

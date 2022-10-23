@@ -8,7 +8,6 @@ let força = document.getElementById('forcadasenha');
 let passwordsenha = document.getElementById('senhagerada');
 let copiar = document.getElementById('icopy');
 
-passwordsenha = senha3
 
  async function copy(){
     try {
