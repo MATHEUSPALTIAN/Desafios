@@ -32,13 +32,15 @@ h1.titulo{
     text-align: center;
     font-size: 1em;
     margin-bottom: 2vh;
+    color: #0C1709;
+
 }
 section > main {
     width: 80%;
     height: 5vh;
     margin: auto;
     border-radius: 4px;
-    background-color:var(--verdeclaro);
+    background-color:rgba(45, 199, 96, 0.795);
     padding:5px;
     border: 0.3px solid rgba(34, 33, 33, 0.726);
     position: absolute;
@@ -53,6 +55,10 @@ section.dois > main {
     background-color: rgb(53, 52, 52);
     padding: 10px;
     border: 0.3px solid rgba(34, 33, 33, 0.726);
+    position: absolute;
+    top: 20.5%;
+    left: 10%;
+
 }
 section.dois > main > section.quant {
     position: relative;

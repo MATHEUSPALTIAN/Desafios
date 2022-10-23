@@ -16,6 +16,11 @@
         height: 100vh;
         position: relative;
     }
+    h1.titulo{
+        padding: 5px;
+        color: white;
+    
+    }
     section > main {
         position: absolute;
         top: 25%;
@@ -29,6 +34,9 @@
         width: 40%;
         height: 45vh;
         border-radius: 10px;
+        position: absolute;
+        top: 30.5%;
+        left: 30%;
     }
     section.dois > main > section.imagemfundo> div{
         display: none;
@@ -75,7 +83,7 @@
 }
 
     /*tablet */
-@media screen and (min-width:768px) and (max-width:1300px){
+@media screen and (min-width:600px) and (max-width:1300px){
     *{
         padding: 0;
         margin: 0;
@@ -96,13 +104,21 @@
         width: 70%;
         border-radius: 10px;
         position: absolute;
-        top: 25%;
+        top: 15%;
         left: 15%;
+    }
+    h1.titulo{
+        padding: 5px;
+        color: white;
+    
     }
     section.dois > main {
         width: 70%;
         height: 65vh;
         border-radius: 10px;
+        position: absolute;
+        top: 20.5%;
+        left: 15%;
     }
     section.dois > main > section.imagemfundo> div{
         display: none;
